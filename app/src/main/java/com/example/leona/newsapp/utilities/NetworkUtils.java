@@ -32,7 +32,7 @@ public class NetworkUtils {
     public static URL makeUrl() {
         //build the url to were well retrive info
         Uri builtUri = Uri.parse(NEWS_BASE_URL).buildUpon()
-                .appendQueryParameter(queryApiKey,"a09dde5b2a7f45e0989769b4afefe45b")
+                .appendQueryParameter(queryApiKey,"PASTE YOUR API KEY HERE")
                 .build();
 
         URL url = null;
